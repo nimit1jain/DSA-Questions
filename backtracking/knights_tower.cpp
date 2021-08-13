@@ -12,7 +12,7 @@ void display(int ** arr,int n)
         cout<<endl;
     }
 }
-void solve(int ** arr,int r, int c,int move,int n)
+void solve(int ** &arr,int r, int c,int move,int n)
 {
     if(r>=n||c>=n||r<0||c<0||arr[r][c]>0)
     {

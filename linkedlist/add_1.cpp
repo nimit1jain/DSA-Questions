@@ -68,8 +68,8 @@ int main()
     // insertattail(head, 4);
     // insertattail(head, 5);
     // insertattail(head, 6);
-    insertattail(head, 9);
-    insertattail(head, 9);
+    insertattail(head, 3);
+    insertattail(head, 2);
     insertattail(head, 9);
     display(head);
 head=reverselist(head);

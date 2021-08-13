@@ -23,13 +23,13 @@ void levelorder(node *root)
         return;
     }
     q.push(root);
-    q.push(NULL);
+    // q.push(NULL);
     while (!q.empty())
     {
         node *temp = q.front();
         q.pop();
-        if (temp != NULL)
-        {
+        // if (temp != NULL)
+        // {
             cout << temp->data << " ";
             if (temp->left)
             {
@@ -37,7 +37,7 @@ void levelorder(node *root)
             }
             if (temp->right)
                 q.push(temp->right);
-        }
+        // }
       
     }
 }

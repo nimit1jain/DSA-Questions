@@ -1,13 +1,18 @@
 #include<bits/stdc++.h>
 #include<iostream>
 using namespace std;
-void sort012(int arr[],int n);
+// void sort012(int arr[],int n);
 int main()
 {
-    int arr[8]={0,2,1,0,2,1,1,0};
- sort(arr,arr+8);
-for(int i=0;i<8;i++)
-cout<<"sorted array="<<arr[i]<<endl;
+//     int arr[8]={0,2,1,0,2,1,1,0};
+//  sort(arr,arr+8);
+// for(int i=0;i<8;i++)
+// cout<<"sorted array="<<arr[i]<<endl;
+// return 0;
+// int num;
+// cin>>num;
+// cout<<num;
+cout<<"hello world ";
 return 0;
 
  }

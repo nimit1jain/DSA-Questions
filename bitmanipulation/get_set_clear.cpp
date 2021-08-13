@@ -6,7 +6,7 @@ int getbit(int n,int pos)
     return((n&(1<<pos))!=0);
 }
 int setbit(int n,int pos)
-{
+{ 
     return(n|(1<<pos));
 }
 int clearbit(int n,int pos)
