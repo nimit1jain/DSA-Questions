@@ -30,11 +30,11 @@ int count1(int n)
 }
 int main()
 {
-    cout<<getbit(5,2)<<endl;
-    cout<<setbit(5,1)<<endl;
-    cout<<clearbit(5,2)<<endl;
-    cout<<power2(12)<<endl;
-    cout<<count1(5)<<endl;
+    cout<<getbit(13,3)<<endl;
+    // cout<<setbit(5,1)<<endl;
+    // cout<<clearbit(5,2)<<endl;
+    // cout<<power2(12)<<endl;
+    // cout<<count1(5)<<endl;
 
 
 return 0;
